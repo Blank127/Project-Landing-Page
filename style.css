@@ -9,6 +9,8 @@
     background-color: #1f2937;
     align-items: center;
     justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 50px;
 }
 
 .Header-Left{
@@ -25,4 +27,50 @@
     align-items: center;
     list-style: none;
     gap: 20px;
+}
+
+.Body-1{
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.Body-1-Left-Top{
+    display: flex;
+    font-size: 48px;
+    color: white;
+    width: 500px;
+}
+
+.Body-1-Left-Mid{
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 500px;
+    height: 50px;
+    padding-bottom: 30px;
+}
+
+
+.Body-1-Left-Bot button{
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+}
+
+.Body-1-Right img{
+    display: flex;
+    height: 300px;
+    width: 500px;
+}
+
+.Button{
+    display: flex;
+    width: 75px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
 }
